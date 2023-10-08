@@ -1,0 +1,19 @@
+package javaejemplo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Libro l1 = new Libro();
+		Libro l2 = new Libro();
+
+		Reserva r1 = new Reserva();
+		Reserva r2 = new Reserva();
+
+		System.out.println("Libro 1: " + l1);
+		System.out.println("Libro 2: " + l2);
+		
+		System.out.println("Reserva 1: " + r1);
+		System.out.println("Reserva 2: " + r2);
+	}
+
+}

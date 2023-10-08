@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+
+h1 {
+    font-size: 24px;
+    color: #ff5733; 
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+    color: #0077b6; 
+    font-family: Helvetica, sans-serif;
+}
+
+
+p {
+    font-size: 16px;
+    color: #333; 
+    font-family: Georgia, serif;
+    line-height: 1.5; 
+}
+
+
+.resaltado {
+    background-color: #ffdb58; 
+    border: 2px solid #ff5733; 
+    padding: 10px;
+    margin: 10px 0;
+    font-weight: bold; 
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+    margin: 0;
+    padding: 0;
+}

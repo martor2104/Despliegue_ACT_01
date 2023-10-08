@@ -1,0 +1,55 @@
+package javaejemplo;
+
+public class Reserva {
+
+	// usuario, libro, fechaReserva y fechaDevolución
+	private String usuario;
+	private String libro;
+	private String fechaReserva;
+	private String fechaDevolucion;
+	
+	public Reserva() {
+		
+	}
+	
+	public Reserva(String usuario, String libro, String fechaReserva, String fechaDevolucion) {
+		setUsuario(usuario);
+		setLibro(libro);
+		setFechaReserva(fechaReserva);
+		setFechaDevolucion(fechaDevolucion);
+	}
+
+	public String getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(String usuario) {
+		this.usuario = usuario;
+	}
+
+	public String getLibro() {
+		return libro;
+	}
+
+	public void setLibro(String libro) {
+		this.libro = libro;
+	}
+
+	public String getFechaReserva() {
+		return fechaReserva;
+	}
+
+	public void setFechaReserva(String fechaReserva) {
+		this.fechaReserva = fechaReserva;
+	}
+
+	public String getFechaDevolucion() {
+		return fechaDevolucion;
+	}
+
+	public void setFechaDevolucion(String fechaDevolucion) {
+		this.fechaDevolucion = fechaDevolucion;
+	}
+	
+	
+}

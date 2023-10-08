@@ -1,0 +1,64 @@
+package javaejemplo;
+
+public class Libro {
+
+	private String libro;
+	private String autor;
+	private Integer isbn;
+	private Estado estado;
+
+	public enum Estado {
+		DISPONIBLE, RESERVADO
+	}
+
+	public Libro() {
+
+	}
+
+	public Libro(String libro, String autor, Integer isbn, Estado estado) {
+		setLibro(libro);
+		setAutor(autor);
+		setIsbn(isbn);
+		setEstado(estado);
+	}
+
+	public String getLibro() {
+		return libro;
+	}
+
+	public void setLibro(String libro) {
+		this.libro = libro;
+	}
+
+	public String getAutor() {
+		return autor;
+	}
+
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
+
+	public Integer getIsbn() {
+		return isbn;
+	}
+
+	public void setIsbn(Integer isbn) {
+		this.isbn = isbn;
+	}
+
+	public Estado getEstado() {
+		return estado;
+	}
+
+	public void setEstado(Estado estado) {
+		this.estado = estado;
+	}
+
+	@Override
+	public String toString() {
+		return "Libro [getLibro()=" + getLibro() + ", getAutor()=" + getAutor() + ", getIsbn()=" + getIsbn()
+				+ ", getEstado()=" + getEstado() + "]";
+	}
+
+	
+}
