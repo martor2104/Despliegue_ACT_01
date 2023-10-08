@@ -1,39 +1,40 @@
 @charset "ISO-8859-1";
 
-
+/* Estilos para los encabezados h1 */
 h1 {
-    font-size: 24px;
-    color: #ff5733; 
-    font-family: Arial, sans-serif;
+    font-size: 24px;         /* Tamaño de fuente de 24 píxeles */
+    color: #ff5733;          /* Color de texto naranja */
+    font-family: Arial, sans-serif; /* Fuente Arial o fuente sans-serif genérica */
 }
 
+/* Estilos para los encabezados h2 */
 h2 {
-    font-size: 20px;
-    color: #0077b6; 
-    font-family: Helvetica, sans-serif;
+    font-size: 20px;         /* Tamaño de fuente de 20 píxeles */
+    color: #0077b6;         /* Color de texto azul */
+    font-family: Helvetica, sans-serif; /* Fuente Helvetica o fuente sans-serif genérica */
 }
 
-
+/* Estilos para los párrafos */
 p {
-    font-size: 16px;
-    color: #333; 
-    font-family: Georgia, serif;
-    line-height: 1.5; 
+    font-size: 16px;         /* Tamaño de fuente de 16 píxeles */
+    color: #333;            /* Color de texto gris oscuro */
+    font-family: Georgia, serif; /* Fuente Georgia o fuente serif genérica */
+    line-height: 1.5;       /* Espaciado de línea de 1.5 veces la altura de la fuente */
 }
 
-
+/* Estilos para elementos con la clase 'resaltado' */
 .resaltado {
-    background-color: #ffdb58; 
-    border: 2px solid #ff5733; 
-    padding: 10px;
-    margin: 10px 0;
-    font-weight: bold; 
+    background-color: #ffdb58; /* Fondo amarillo claro */
+    border: 2px solid #ff5733; /* Borde naranja sólido de 2 píxeles */
+    padding: 10px;            /* Relleno interno de 10 píxeles */
+    margin: 10px 0;           /* Margen superior e inferior de 10 píxeles, sin margen lateral */
+    font-weight: bold;        /* Texto en negrita */
 }
 
-
+/* Estilos para el cuerpo (body) */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0; 
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Fuente Arial o fuente sans-serif genérica */
+    background-color: #f0f0f0;     /* Fondo gris claro */
+    margin: 0;                     /* Elimina el margen exterior */
+    padding: 0;                    /* Elimina el relleno exterior */
 }
